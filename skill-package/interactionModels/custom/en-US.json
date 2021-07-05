@@ -1,0 +1,161 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "gpt three completion",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": ["the end", "thats all"]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "UtteranceIntent",
+          "slots": [
+            {
+              "name": "text",
+              "type": "catchAll"
+            }
+          ],
+          "samples": ["{text}"]
+        },
+        {
+          "name": "ContinueIntent",
+          "samples": ["continue", "go on"]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "once upon a midnight dreary as I pondered weak and weary"
+              }
+            },
+            {
+              "name": {
+                "value": "allonymous isoelectrically salubrity apositia phantomize Sangraal externomedian phylloidal"
+              }
+            },
+            {
+              "name": {
+                "value": "imbreviate Bertie arithmetical undramatically braccianite eightling imagerially leadoff"
+              }
+            },
+            {
+              "name": {
+                "value": "mistakenness preinspire tourbillion caraguata chloremia unsupportedness squatarole licitation"
+              }
+            },
+            {
+              "name": {
+                "value": "Cimbric sigillarid deconsecrate acceptableness balsamine anostosis disjunctively chafflike"
+              }
+            },
+            {
+              "name": {
+                "value": "earsplitting mesoblastema outglow predeclare theriomorphism prereligious unarousing"
+              }
+            },
+            {
+              "name": {
+                "value": "ravinement pentameter proboscidate unexigent ringbone unnormal Entomophila perfectibilism"
+              }
+            },
+            {
+              "name": {
+                "value": "defyingly amoralist toadship psoatic boyology unpartizan merlin nonskid"
+              }
+            },
+            {
+              "name": {
+                "value": "broadax lifeboat progenitive betel ashkoko cleronomy unpresaging pneumonectomy"
+              }
+            },
+            {
+              "name": {
+                "value": "overharshness filtrability visual predonate colisepsis unoccurring turbanlike flyboy"
+              }
+            },
+            {
+              "name": {
+                "value": "kilp Callicarpa unforsaken undergarment maxim cosenator archmugwump fitted"
+              }
+            },
+            {
+              "name": {
+                "value": "ungutted pontificially Oudenodon fossiled chess Unitarian bicone justice"
+              }
+            },
+            {
+              "name": {
+                "value": "compartmentalize prenotice achromat suitability molt stethograph Ricciaceae ultrafidianism"
+              }
+            },
+            {
+              "name": {
+                "value": "slotter archae contrastimulant sopper Serranus remarry pterygial atactic"
+              }
+            },
+            {
+              "name": {
+                "value": "superstrata shucking Umbrian hepatophlebotomy undreaded introspect doxographer tractility"
+              }
+            },
+            {
+              "name": {
+                "value": "obstructionist undethroned unlockable Lincolniana haggaday vindicatively tithebook"
+              }
+            },
+            {
+              "name": {
+                "value": "unsole relatively Atrebates Paramecium vestryish stockfish subpreceptor"
+              }
+            },
+            {
+              "name": {
+                "value": "babied vagueness elabrate graphophonic kalidium oligocholia floccus strang"
+              }
+            },
+            {
+              "name": {
+                "value": "undersight monotriglyphic uneffete trachycarpous albeit pardonableness Wade"
+              }
+            },
+            {
+              "name": {
+                "value": "minacious peroratory filibeg Kabirpanthi cyphella cattalo chaffy savanilla"
+              }
+            },
+            {
+              "name": {
+                "value": "Polyborinae Shakerlike checkerwork pentadecylic shopgirl herbary disanagrammatize shoad"
+              }
+            }
+          ],
+          "name": "catchAll"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "149"
+}

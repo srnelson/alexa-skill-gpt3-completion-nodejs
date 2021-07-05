@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Alexa skill demonstrating GPT-3 completion",
+          "examplePhrases": [
+            "Alexa open gpt three completion",
+            "it was a dark and stormy night",
+            "help"
+          ],
+          "name": "GPT3 Completion",
+          "description": "Alexa skill demonstrating GPT-3 completion"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "provide your endpoint URI here"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
